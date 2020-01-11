@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  background-color: rgb(237, 235, 235);
+}
+
+header{
+  margin-top: 50px;
+  font-size: 36px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.name-line{
+  color: blue;
+}
+
+p{
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media(max-width: 576px){
+
+  body{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  p{
+    margin-left: 20px;
+    margin-right: 20px;
+
+  }
+
 }
